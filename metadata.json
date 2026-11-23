@@ -1,0 +1,6 @@
+{
+  "name": "Bilo wifi manager Pro",
+  "description": "Wi-Fi Router Management & Hotspot Billing System for ZLT/Tozed CPE routers with custom device naming, automated time-based MAC blocking, package management, and cash revenue tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
