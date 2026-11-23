@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
       - name: Unzip project & install dependencies
         run: |
           if [ -f app.zip.zip ]; then unzip -o app.zip.zip; elif [ -f app.zip ]; then unzip -o app.zip; fi
