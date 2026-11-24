@@ -1,18 +1,18 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.bilo.wifimanager',
-  appName: 'Bilo WiFi Manager',
+  appId: 'com.bilowifi.managerpro',
+  appName: 'Bilo wifi manager Pro',
   webDir: 'dist',
-  server: {
-    androidScheme: 'http',
-    cleartext: true
-  },
   plugins: {
     CapacitorHttp: {
-      enabled: true
-    }
-  }
+      enabled: true,
+    },
+  },
+  server: {
+    androidScheme: 'http',
+    cleartext: true,
+  },
 };
 
 export default config;
