@@ -37,9 +37,8 @@ jobs:
 
       - name: Setup Capacitor Android
         run: |
-          if [ ! -d "android" ]; then
-            npx cap add android
-          fi
+          rm -rf android
+          npx cap add android
           npx cap sync android
 
       - name: Configure AndroidManifest permissions and cleartext traffic
